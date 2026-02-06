@@ -1,0 +1,44 @@
+# Core
+fastapi[standard]==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+redis==5.2.1
+
+# Vector DB & AI
+pinecone-client==5.0.1
+openai==1.59.0
+numpy==2.2.1
+
+# Scraping
+playwright==1.49.1
+aiohttp==3.11.11
+beautifulsoup4==4.12.3
+fake-useragent==2.0.3
+
+# Scheduling & Background Tasks
+apscheduler==3.11.0
+celery==5.4.0
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+
+# Email & Notifications
+sendgrid==6.11.0
+
+# Monitoring & Logging
+structlog==24.4.0
+prometheus-client==0.21.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
